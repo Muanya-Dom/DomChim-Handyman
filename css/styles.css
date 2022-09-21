@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url("../img/background.login.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+height: auto;
+overflow: hidden;
+font-family: 'Numans', sans-serif;
+}
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 410px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #87CEEB;
+}
+
+.social_icon span:hover{
+color: #FFFAFA;
+cursor: pointer;
+}
+
+.card-header h3{
+color: #FFFAFA;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #87CEEB;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: #FFFAFA;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #87CEEB;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: #FFFAFA;
+}
+
+.links{
+color: #FFFAFA;
+}
+
+.links a{
+margin-left: 4px;
+}
